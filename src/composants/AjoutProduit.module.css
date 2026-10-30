@@ -1,0 +1,136 @@
+/* Styles de la page AjoutProduit (CSS Module) : mêmes couleurs que Connexion */
+
+/* <main> : centre la carte du formulaire */
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 34px 24px;
+}
+
+/* <form> : carte blanche, bordure grise, coins arrondis */
+.form {
+  width: 100%;
+  max-width: 440px;
+  padding: 30px;
+  background: #ffffff;
+  border: 2px solid #d1d5db;
+  border-radius: 8px;
+}
+
+/* <p> "ADMINISTRATION" au-dessus du titre */
+.surtitre {
+  margin-bottom: 8px;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #1f4e79;
+}
+
+/* <h1> "Ajouter un produit" */
+.titre {
+  margin-bottom: 24px;
+  font-size: 28px;
+  font-weight: bold;
+  color: #111827;
+}
+
+/* <p> message d'erreur : encadré rouge */
+.erreur {
+  margin-bottom: 20px;
+  padding: 12px 16px;
+  background: #fdecea;
+  border: 2px solid #c0392b;
+  border-radius: 6px;
+  font-size: 15px;
+  color: #c0392b;
+  text-align: center;
+}
+
+/* <p> produit ajouté : encadré vert */
+.succes {
+  margin-bottom: 20px;
+  padding: 12px 16px;
+  background: #e8f5e9;
+  border: 2px solid #2e7d32;
+  border-radius: 6px;
+  font-size: 15px;
+  color: #2e7d32;
+  text-align: center;
+}
+
+/* <div> qui regroupe un label et son input */
+.champ {
+  margin-bottom: 18px;
+}
+
+/* <label> */
+.label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 16px;
+  color: #374151;
+}
+
+/* <input> nom, prix, image */
+.input {
+  width: 100%;
+  height: 48px;
+  padding: 0 14px;
+  border: 2px solid #9ca3af;
+  border-radius: 6px;
+  background: #ffffff;
+  font-size: 16px;
+  color: #111827;
+}
+
+.input::placeholder {
+  color: #9ca3af;
+}
+
+.input:focus {
+  outline: none;
+  border-color: #1f4e79;
+  box-shadow: 0 0 0 3px rgba(31, 78, 121, 0.2);
+}
+
+/* <button> "Ajouter le produit" : fond bleu, texte blanc */
+.boutonPrincipal {
+  width: 100%;
+  height: 54px;
+  margin-top: 6px;
+  border: none;
+  border-radius: 6px;
+  background: #1f4e79;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.boutonPrincipal:hover {
+  background: #163a5c;
+}
+
+/* <Link> "Voir la boutique" */
+.lienBoutique {
+  display: block;
+  margin-top: 18px;
+  font-size: 16px;
+  color: #1f4e79;
+  text-align: center;
+}
+
+/* Mobile : formulaire sur toute la largeur */
+@media (max-width: 600px) {
+  .page {
+    padding: 24px;
+    background: #ffffff;
+  }
+
+  .form {
+    padding: 0;
+    border: none;
+    background: transparent;
+  }
+}

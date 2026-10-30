@@ -1,0 +1,96 @@
+.page {
+  width: 100%;
+  max-width: 740px;
+  margin: 0 auto;
+  padding: 40px 24px;
+  text-align: center;
+}
+
+.surtitre {
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #1f4e79;
+}
+
+.titre {
+  margin: 8px 0;
+  font-size: 30px;
+}
+
+.texte {
+  margin-bottom: 24px;
+  color: #6b7280;
+}
+
+.carte {
+  padding: 26px;
+  background: #ffffff;
+  border: 1px solid #d1d5db;
+  border-radius: 8px;
+  text-align: left;
+}
+
+.sousTitre {
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+.compteur {
+  display: inline-block;
+  min-width: 26px;
+  border-radius: 13px;
+  background: #1f4e79;
+  font-size: 13px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.vide {
+  color: #6b7280;
+}
+
+.ligne {
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 0;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.boutonRetirer {
+  margin-left: 20px;
+  border: none;
+  background: none;
+  font-size: 16px;
+  color: #c0392b;
+  cursor: pointer;
+}
+
+.total {
+  margin: 16px 0;
+  font-size: 18px;
+}
+
+.boutonCommander {
+  width: 100%;
+  height: 44px;
+  border: none;
+  border-radius: 6px;
+  background: #1f4e79;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.boutonCommander:disabled {
+  background: #9ca3af;
+}
+
+.continuer {
+  display: inline-block;
+  margin-top: 24px;
+  font-weight: bold;
+  color: #1f4e79;
+  text-decoration: none;
+}

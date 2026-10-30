@@ -1,0 +1,52 @@
+/* Page d'accueil : mêmes couleurs que la maquette Canva */
+
+.page {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 34px 24px;
+}
+
+/* Carte blanche, comme le formulaire de connexion */
+.carte {
+  width: 100%;
+  max-width: 520px;
+  padding: 36px 30px;
+  background: #ffffff;
+  border: 2px solid #d1d5db;
+  border-radius: 8px;
+  text-align: center;
+}
+
+/* <h1> "Bienvenue, Sami !" */
+.titre {
+  margin-bottom: 12px;
+  font-size: 28px;
+  color: #111827;
+}
+
+/* <p> texte sous le titre */
+.texte {
+  margin-bottom: 28px;
+  font-size: 16px;
+  color: #4b5563;
+}
+
+/* Bouton bleu de la maquette (un lien) */
+.bouton {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  height: 54px;
+  padding: 0 32px;
+  border-radius: 6px;
+  background: #1f4e79;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.bouton:hover {
+  background: #163a5c;
+}

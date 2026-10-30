@@ -1,0 +1,18 @@
+/* Styles globaux de l'application (couleurs et police de la maquette Canva) */
+
+/* Réinitialisation : marges à zéro, la taille inclut padding et bordure */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #1f2937;
+  background: #f9fafb; /* fond gris très clair de la maquette */
+}

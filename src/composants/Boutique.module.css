@@ -1,0 +1,46 @@
+.boutique {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 40px 24px;
+}
+
+.surtitre {
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  color: #1f4e79;
+}
+
+.titre {
+  margin: 8px 0;
+  font-size: 34px;
+}
+
+.texte {
+  margin-bottom: 40px;
+  color: #6b7280;
+}
+
+.sousTitre {
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+.ligneRecherche {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 20px;
+}
+
+.nombre {
+  font-size: 13px;
+  color: #6b7280;
+}
+
+.grille {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 250px));
+  gap: 20px;
+}
